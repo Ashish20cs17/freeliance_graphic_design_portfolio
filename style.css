@@ -1,0 +1,528 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+	background-color: white transparent;
+}
+
+
+.hero {
+	height: 540px;
+	width: 100%;
+	background-image: url(background1.jpg);
+	background-size: cover;
+	background-position: center;
+
+	width: 100%;
+
+	object-fit: cover;
+	object-position: bottom;
+
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo {
+	color:red;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span {
+	color: blue;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover {
+	color: blue;
+	transition: .4s;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+
+.btn:hover {
+	transform: scale(1.2);
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+
+.nm {
+	margin: 20px 0px 20px;
+	font-size: 23px;
+	padding: 10%;
+}
+
+h1 {
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+h3 {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+h4 {
+	color: #fcfc;
+	letter-spacing: px;
+	font-size: 20px;
+
+
+}
+
+.news {
+	width: 10px;
+
+	position: relative;
+}
+
+.newslatter form {
+	width: 70%;
+	max-width: 100%;
+	position: relative;
+	margin: 200px;
+}
+
+.newslatter form input:first-child {
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid blue;
+	outline: none;
+	border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: blue;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+}
+
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background-color:rgb(205, 205, 68);
+}
+
+.about img {
+
+	height: 15cm;
+	width: 350px;
+	border-radius: 10px;
+	border: 5px solid blue;
+
+}
+
+.about-text {
+	width: 550px;
+}
+
+.skill {
+	width: 100%;
+	padding: 100px 0px;
+	background-color:rgb(11, 11, 10);
+}
+
+.skill img {
+
+	height: 15cm;
+	width: 350px;
+	border-radius: 10px;
+	border: 5px solid blue;
+
+}
+
+.skill-text {
+	width: 550px;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+/* Typography */
+h1, h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Portfolio Item Styles */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Information Styles */
+.contact-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Add any additional styles or customizations as needed */
+
+
+
+
+
+
+.main {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 100%;
+	/* Adjust the width and height as needed */
+	height: 100%;
+	overflow: hidden;
+	/* Hide any overflow beyond the container */
+
+
+
+
+
+
+}
+
+
+.hover-image {
+	width: 100%;
+	/* Make the image fill the container */
+	height: auto;
+	/* Maintain aspect ratio */
+	transition: transform 0.3s ease;
+	/* Add smooth transition effect */
+}
+
+.main:hover .hover-image {
+	transform: scale(1.1);
+	/* Enlarge the image by 10% on hover */
+}
+
+
+.about-text h2 {
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p {
+	color:red;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	font-style: oblique;
+	
+}
+
+button {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+button:hover {
+	background-color: transparent;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+.service {
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.title h2 {
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+.card {
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: blue;
+
+}
+
+h5 {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.pra p {
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.card .button {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+.card .button:hover {
+	background-color: transparent;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+.contact-me {
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-me p {
+	color:red;
+	font-size: 37px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+
+.contact-me .button-two:hover {
+	background-color: transparent;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p:nth-child(1) {
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+footer p:nth-child(2) {
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.social {
+	display: flex;
+}
+
+.social a {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: blue;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.social a:hover {
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+.end {
+	position: absolute;
+	color: blue;
+	bottom: 35px;
+	font-size: 14px;
+}
+
+
+
+/* Define the animation keyframes */
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Apply the animation initially with a class */
+.element-to-animate {
+	transform: translateY(100%);
+	opacity: 0;
+	animation: slideUp 1s ease-in-out;
+	animation-fill-mode: forwards;
+}
